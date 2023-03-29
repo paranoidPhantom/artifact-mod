@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(20,20,20);
+}
+
+img,button {
+    font-family: "Fira Sans Condensed";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: "Arial";
+    color: white;
+}
