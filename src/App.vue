@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import footercomp from "./components/footer.vue"
 </script>
 
 <template>
@@ -8,7 +8,7 @@
       <component :is="Component" :key="$route.path"></component>
     </transition>
   </router-view>
-  <footer>© 2023 ARTIFACT</footer>
+  <footercomp />
 </template>
 
 <style scoped>
