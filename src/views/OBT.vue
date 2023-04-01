@@ -29,11 +29,11 @@ const submitForm = () => {
 
         </div>
         <div id="feedback">
-            <h3>Отзыв</h3>
+            <h3>ОТЗЫВ</h3>
             <textarea class="feedback" name="feedback" v-model="reviewValue"></textarea>
-            <h3>Оценка - {{ ratingValue }}</h3>
+            <h3>ОЦЕНКА - {{ ratingValue }}</h3>
             <input class="slider" type="range" name="rating" min="1" max="10" v-model="ratingValue">
-            <h3>Проблемы (не обязательно)</h3>
+            <h3>ПРОБЛЕМЫ (ЕСЛИ СТОЛКНУЛИСЬ)</h3>
             <textarea class="feedback" name="feedback" v-model="issuesValue"></textarea>
             <button @click="submitForm">Отправить</button>
         </div>
