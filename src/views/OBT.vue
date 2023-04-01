@@ -53,7 +53,7 @@ const submitForm = () => {
     height: 100%;
     z-index: -1;
     user-select: none;
-    transform: scale(1.2);
+    transform: scale(1.4);
     filter: saturate(1.3) brightness();
     pointer-events: none;
 }
