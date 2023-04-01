@@ -28,8 +28,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(0.5rem);
+    box-shadow: 0 0 0.5rem 0.6rem rgba(0, 0, 0, 0.5) inset;
+    backdrop-filter: none;
 }
 span {
     opacity: 0.9;

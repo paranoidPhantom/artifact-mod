@@ -73,7 +73,7 @@
 .hero {
     position: absolute;
     left: 50%;
-    top: 50vh;
+    top: calc(50vh + 0.1rem);
     display: flex;
     flex-direction: column;
     align-items: center;
