@@ -61,6 +61,6 @@ h1 {
 }
 
 .boosty:hover>img {
-    width: 12rem;
+    width: 15rem;
 }
 </style>
