@@ -16,6 +16,7 @@
 h1 {
     margin: 2rem 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .methods {
