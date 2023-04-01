@@ -55,6 +55,7 @@ const submitForm = () => {
     user-select: none;
     transform: scale(1.2);
     filter: saturate(1.3) brightness();
+    pointer-events: none;
 }
 
 #install {
