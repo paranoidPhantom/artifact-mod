@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import CountdownTimer from "../components/Countdown.vue"
+import Support from "../components/Support.vue";
 import { useRouter, useRoute } from 'vue-router'
 import { onMounted, ref } from 'vue';
 
@@ -12,6 +14,7 @@ const formLink = (info: String, rating: Number, problems: String) => {
 }
 const submitForm = () => {
     try {
+        throw("required ")
         fetch(formLink(reviewValue.value, ratingValue.value, issuesValue.value), { mode: 'no-cors' })
             .then((response) => {
                 router.push('/')
@@ -29,7 +32,8 @@ const submitForm = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
-
+            <CountdownTimer />
+            <Support />
         </div>
         <div id="feedback">
             <h3>ОТЗЫВ</h3>
@@ -176,6 +180,8 @@ button:hover {
     opacity: 0.8;
 }
 
+
+
 @media screen and (max-width: 700px) {
     .container {
         flex-direction: column;
@@ -187,6 +193,6 @@ button:hover {
     #feedback {
         width: calc(100% - 5rem);
         margin: 1rem;
-        height: 40vh;
+        min-height: 40vh;
     }
 }</style>

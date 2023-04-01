@@ -81,6 +81,9 @@ iframe {
     iframe {
         width: 95%;
     }
+    .homebtn {
+        display: none;
+    }
     .screenshots {
         flex-direction: column;
         align-items: center;
