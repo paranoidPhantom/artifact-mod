@@ -7,15 +7,24 @@ const app = createApp(App)
 const routes = [
     {
         path: '/',
-        component: () => import("./views/Home.vue")
+        component: () => import("./views/Home.vue"),
+        meta: {
+            title: "Домашняя"
+        }
     },
     {
         path: '/about',
-        component: () => import("./views/About.vue")
+        component: () => import("./views/About.vue"),
+        meta: {
+            title: "О моде"
+        }
     },
     {
         path: '/beta-testing',
-        component: () => import("./views/OBT.vue")
+        component: () => import("./views/OBT.vue"),
+        meta: {
+            title: "ОБТ"
+        }
     },
 ]
 
@@ -24,6 +33,12 @@ const router = createRouter({
     routes
 })
 
+router.afterEach((to, from) => {
+    setTimeout(() => {
+        console.log(to.meta)
+        document.title = `${to.meta.title} | Artifact Mod`
+    }, 100);
+});
 
 app.use(router)
 app.mount('#app')

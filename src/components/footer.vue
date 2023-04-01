@@ -7,10 +7,10 @@
         <span>© 2023 ARTIFACT</span>
         <div class="links">
             <a href="https://vk.com/artifactmod" target="_blank">
-                <img src="/images/logos/vk.webp" alt="Группа VK" >
+                <img style="transform: translateY(0.1rem);" src="/images/logos/vk.webp" alt="Группа VK" >
             </a>
             <a href="https://ap-pro.ru/forums/topic/3536-artifact-mod/" target="_blank">
-                <img src="/images/logos/appro.webp" alt="AP-PRO">
+                <img style="transform: translateY(0.1rem);" src="/images/logos/appro.webp" alt="AP-PRO">
             </a>
             <a href="https://www.moddb.com/mods/artifact-mod1" target="_blank">
                 <img src="/images/logos/moddb.webp" alt="ModDB">
@@ -25,7 +25,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 1);
     backdrop-filter: blur(0.5rem);
 }
 span {

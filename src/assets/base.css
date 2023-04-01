@@ -2,16 +2,33 @@
 
 body {
     margin: 0;
-    background-color: rgb(20,20,20);
+    background-color: rgb(20, 20, 20);
 }
 
-img,button {
+img,
+button {
     font-family: "Fira Sans Condensed";
     text-align: center;
 }
 
-h1,h2,h3,h4,h5,h6,p,span{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
     font-family: "Arial";
     color: white;
     margin: 0;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
