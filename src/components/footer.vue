@@ -10,10 +10,10 @@
         </a>
         <div class="links">
             <a href="https://vk.com/artifactmod" target="_blank">
-                <img style="transform: translateY(0.1rem);" src="/images/logos/vk.webp" alt="Группа VK" >
+                <img src="/images/logos/vk.webp" alt="Группа VK" >
             </a>
             <a href="https://ap-pro.ru/forums/topic/3536-artifact-mod/" target="_blank">
-                <img style="transform: translateY(0.1rem);" src="/images/logos/appro.webp" alt="AP-PRO">
+                <img src="/images/logos/appro.webp" alt="AP-PRO">
             </a>
             <a href="https://www.moddb.com/mods/artifact-mod1" target="_blank">
                 <img src="/images/logos/moddb.webp" alt="ModDB">
@@ -44,18 +44,19 @@ span {
 }
 img {
     height: 1.5rem;
-    transition: all 0.3s;
-}
-img:hover {
-    filter: brightness(0.8);
+    transition: all 0.3s ease-in-out;
+    transform: none;
+    z-index: 10;
 }
 .links a {
     padding: 0.2rem 0.3rem;
     transition: all 0.3s;
     border-radius: 0.3rem;
 }
-.links a:hover {
-    box-shadow: 0 0 2rem rgba(255, 255, 255, 1);
-    background-color: rgba(255, 255, 255, 0.1);
+
+
+.links a:hover > img {
+    filter: brightness(0.8);
+    transform: translateY(-50%);
 }
 </style>

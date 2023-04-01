@@ -22,6 +22,9 @@ const submitForm = () => {
 
 <template>
     <div class="container">
+        <router-link to="/" class="homebtn">
+            <img src="/images/home.webp">
+        </router-link>
         <iframe id="background-video" src="https://www.youtube.com/embed/5ncbY6LFRfc?controls=0&autoplay=1&loop=1&repeat=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
@@ -154,11 +157,32 @@ button:hover {
     color: white;
 }
 
+.homebtn {
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0.1rem rgba(255, 255, 255, 0.8) solid;
+    backdrop-filter: blur(1rem);
+    z-index: 10;
+}
+
+.homebtn > img {
+    width: 100%;
+    opacity: 0.8;
+}
+
 @media screen and (max-width: 700px) {
     .container {
         flex-direction: column;
     }
-
+    .homebtn {
+        display: none;
+    }
     #install,
     #feedback {
         width: calc(100% - 5rem);
