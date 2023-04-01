@@ -89,7 +89,7 @@ const submitForm = () => {
 
 textarea {
     width: 100%;
-    min-height: 30%;
+    min-height: 25%;
     border-radius: 0.5rem;
     background: none;
     color: white;
