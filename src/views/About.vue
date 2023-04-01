@@ -61,8 +61,8 @@ iframe {
 
 .homebtn {
     position: fixed;
-    top: 4%;
-    left: 4%;
+    top: 1rem;
+    left: 1rem;
     width: 2rem;
     height: 2rem;
     padding: 0.4rem;

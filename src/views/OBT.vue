@@ -159,8 +159,8 @@ button:hover {
 
 .homebtn {
     position: fixed;
-    top: 3%;
-    left: 3%;
+    top: 0.4rem;
+    left: 0.4rem;
     width: 1.5rem;
     height: 1.5rem;
     padding: 0.4rem;
