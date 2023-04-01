@@ -17,7 +17,7 @@ import footercomp from "./components/footer.vue"
 /* */
 .slide-enter-active,
 .slide-leave-active {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .slide-enter-from,

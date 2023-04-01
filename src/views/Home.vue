@@ -136,7 +136,7 @@ button {
   background-color: white;
   color: black;
   mix-blend-mode: screen;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bolder;
   transition: all 0.4s;
   cursor: pointer;
@@ -152,5 +152,16 @@ button:hover {
 .button-container {
     display: flex;
     gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+    button {
+        font-size: 1.2rem;
+    }
+    .button-container {
+        flex-direction: column;
+    }
 }
 </style>

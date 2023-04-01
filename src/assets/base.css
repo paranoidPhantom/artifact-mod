@@ -19,7 +19,8 @@ h5,
 h6,
 p,
 span {
-    font-family: "Arial";
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
     color: white;
     margin: 0;
 }

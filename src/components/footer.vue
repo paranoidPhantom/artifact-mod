@@ -25,7 +25,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(0.5rem);
 }
 span {
