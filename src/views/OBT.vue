@@ -73,6 +73,7 @@ const submitForm = () => {
     border-radius: 1.5rem;
     padding: 1.5rem;
     border: 2px rgba(255, 255, 255, 0.4) solid;
+    min-height: max-content;
 }
 
 #feedback {
@@ -83,16 +84,17 @@ const submitForm = () => {
     border-radius: 1.5rem;
     padding: 1.5rem;
     border: 2px rgba(255, 255, 255, 0.4) solid;
+    min-height: max-content;
 }
 
 textarea {
     width: 100%;
-    height: 30%;
+    min-height: 30%;
     border-radius: 0.5rem;
     background: none;
     color: white;
     margin-bottom: 1rem;
-    resize: vertical;
+    resize: none;
     font-family: "Inter", sans-serif;
     font-weight: 100;
 }
