@@ -33,6 +33,12 @@ const router = createRouter({
     routes
 })
 
+router.afterEach((to, from) => {
+    setTimeout(() => {
+        document.title = `${to.meta.title} | Artifact Mod`
+    }, 100);
+});
+
 
 app.use(router)
 app.mount('#app')
