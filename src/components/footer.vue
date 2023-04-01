@@ -5,7 +5,7 @@
 <template>
     <footer>
         <span>© 2023 ARTIFACT</span>
-        <a href="https://paranoidphantom.vercel.app" target="_blank">
+        <a id="credit" href="https://paranoidphantom.vercel.app" target="_blank">
             <img src="/images/web-design.webp" alt="Сайт разработал" title="Сайт разработал paranoidPhantom" >
         </a>
         <div class="links">
@@ -58,5 +58,11 @@ img {
 .links a:hover > img {
     filter: brightness(0.8);
     transform: translateY(-50%);
+}
+
+@media screen and (max-width: 700px) {
+    #credit {
+        display: none;
+    }
 }
 </style>

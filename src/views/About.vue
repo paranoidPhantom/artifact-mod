@@ -17,7 +17,7 @@ onMounted(() => {
         <router-link to="/" class="homebtn">
             <img src="/images/home.webp">
         </router-link>
-        <h1>ИНФОРМАЦИЯ О МОДЕ</h1>
+        <!-- <h1>ИНФОРМАЦИЯ О МОДЕ</h1> -->
         <iframe src="https://www.youtube.com/embed/f3LR1-AYH9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div class="screenshots" ref="attachment_grid">
             <img v-for="image in 25" :src="`/images/screenshots/${image}.webp`" :alt="`Screenshot ${image}`">

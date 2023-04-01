@@ -31,17 +31,20 @@ h1 {
     cursor: pointer;
 }
 
+.sbercard>img {
+    width: 10rem;
+    transition: all 0.3s;
+    filter: brightness(0.7);
+    user-select: none;
+}
+
 .sbercard:hover>img {
     width: 12rem;
+    filter: brightness(0.4);
 }
 
 .sbercard:hover>h4 {
     transform: translate(-50%, -50%) scale(1.2);
-}
-
-.sbercard>img {
-    width: 10rem;
-    transition: all 0.3s;
 }
 
 .sbercard>h4 {
@@ -49,7 +52,7 @@ h1 {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-size: 0.6rem;
     transition: all 0.3s;
@@ -61,6 +64,6 @@ h1 {
 }
 
 .boosty:hover>img {
-    width: 15rem;
+    width: 12rem;
 }
 </style>
