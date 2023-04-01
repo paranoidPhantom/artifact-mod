@@ -5,6 +5,9 @@
 <template>
     <footer>
         <span>© 2023 ARTIFACT</span>
+        <a href="https://paranoidphantom.vercel.app" target="_blank">
+            <img src="/images/web-design.webp" alt="Сайт разработал" title="Сайт разработал paranoidPhantom" >
+        </a>
         <div class="links">
             <a href="https://vk.com/artifactmod" target="_blank">
                 <img style="transform: translateY(0.1rem);" src="/images/logos/vk.webp" alt="Группа VK" >
@@ -31,6 +34,7 @@ footer {
 span {
     opacity: 0.9;
     margin-left: 1rem;
+    font-weight: 500;
 }
 .links {
     display: flex;
@@ -38,11 +42,11 @@ span {
     align-items: center;
     margin-right: 1rem;
 }
-.links img {
+img {
     height: 1.5rem;
     transition: all 0.3s;
 }
-.links img:hover {
+img:hover {
     filter: brightness(0.8);
 }
 .links a {

@@ -22,7 +22,7 @@ const submitForm = () => {
 
 <template>
     <div class="container">
-        <iframe id="background-video" src="https://www.youtube.com/embed/5ncbY6LFRfc?controls=0&autoplay=1&loop=1" title="YouTube video player" frameborder="0"
+        <iframe id="background-video" src="https://www.youtube.com/embed/5ncbY6LFRfc?controls=0&autoplay=1&loop=1&repeat=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
