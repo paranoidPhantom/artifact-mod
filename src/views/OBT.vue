@@ -32,8 +32,8 @@ const submitForm = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
-            <!-- <CountdownTimer /> -->
-            <h2 style="text-transform: uppercase;">Информация</h2>
+            <CountdownTimer />
+            <!-- <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
                 <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
                 <li><p>Должно хватить на несколько часов геймплея, смотря кто как играет и любуется пейзажами, наиграться хватит.</p></li>
@@ -69,7 +69,7 @@ const submitForm = () => {
                 <li>Загрузить «ARTIFACT fragment» с <a href="" target="_blank">GitHub</a> [5.4 ГБ]</li>
                 <li>Загрузить «ARTIFACT fragment» <a href="">Torrent</a> [5.4 ГБ]</li>
                 <li>Загрузить «ARTIFACT fragment» с ФО: <a href="" target="_blank">Google Drive</a> [5.4 ГБ]</li>
-            </ul>
+            </ul>-->
             <Support />
         </div>
         <div id="feedback">
