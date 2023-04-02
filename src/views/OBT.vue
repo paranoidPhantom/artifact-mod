@@ -32,7 +32,45 @@ const submitForm = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
-            <CountdownTimer />
+            <!-- <CountdownTimer /> -->
+            <h2>Информация</h2>
+            <ul>
+                <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
+                <li><p>Должно хватить на несколько часов геймплея, смотря кто как играет и любуется пейзажами, наиграться хватит.</p></li>
+                <li><p>Нам важно понять в правильном направлении мы двигеаемся, или нужно что-то менять.</p></li>
+            </ul>
+            <hr>
+            <h2>Инструкция по установке</h2>
+            <ul>
+                <li>Установить чистую копию "Зов Припяти" с патчем "1.6.02".</li>
+                <li>Разархивировать скачанный архив с модификацией в любое место на диске.</li>
+                <li>В папке Artifact fragment открыть файл fsgame.ltx и поменять путь до оригинала игры на свой, аналогично этому: <i>C:\Games\S.T.A.L.K.E.R. Call of Pripyat</i><br><span><u>Менять нужно на такое расположение, где у ВАС находится оригинал игры.</u></span></li>
+                <li>Запускать модификацию с помощью значка "Artifact START", при желании можно создать ярлык на рабочем столе.</li>
+                <li>При уведомлении о том, что доступно новое обновление нажимать - <b>НЕТ</b></li>
+            </ul>
+            <hr>
+            <h3>Минимальные требования:</h3>
+            <ul>
+                <li>Процессор: Intel Core i5-2500 или AMD Ryzen 3 1200</li>
+                <li>Видеокарта: NVIDIA GeForce GTX 960 или AMD Radeon R9 380</li>
+                <li>Оперативная память: 6 Гбайт</li>
+                <li>Место на диске: 20 Гбайт (предпочтительнее SSD)</li>
+            </ul>
+            <h3>Рекомендуемые требования:</h3>
+            <ul>
+                <li>Процессор: Intel Core i5-6600K или AMD Ryzen 5 1600</li>
+                <li>Видеокарта: NVIDIA GeForce GTX 1070 или AMD Radeon RX 5600 XT</li>
+                <li>Оперативная память: 12 Гбайт</li>
+                <li>Место на диске: 20 Гбайт (предпочтительнее SSD)</li>
+            </ul>
+            <hr>
+            <h2>Ссылки на загрузку</h2>
+            <ul style="list-style-type: '»  ';">
+                <li>Загрузить «ARTIFACT fragment» с <a href="" target="_blank">GitHub</a> [5.4 ГБ]</li>
+                <li>Загрузить «ARTIFACT fragment» <a href="">Torrent</a> [5.4 ГБ]</li>
+                <li>Загрузить «ARTIFACT fragment» с ФО: <a href="" target="_blank">Google Drive</a> [5.4 ГБ]</li>
+                <li>Загрузить «ARTIFACT fragment» с ФО: <a href="" target="_blank">Яндекс.Диск</a> [5.4 ГБ]</li>
+            </ul>
             <Support />
         </div>
         <div id="feedback">
@@ -51,6 +89,21 @@ const submitForm = () => {
 .container {
     display: flex;
     min-height: 100vh;
+}
+
+li {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0.4rem 0;
+}
+
+li > a {
+    color: white;
+    text-decoration: underline dotted;
+}
+
+li > span {
+    font-size: 0.6em;
 }
 
 #background-video {
