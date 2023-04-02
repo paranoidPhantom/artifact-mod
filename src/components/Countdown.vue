@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-var countDownDate = new Date("Apr 2, 2023 19:30:00 GMT+03:00").getTime();
+var countDownDate = new Date("Apr 2, 2023 21:30:00 GMT+03:00").getTime();
 const timerValue: any = ref("__:__:__:__")
 const timerCheckInterval = setInterval(() => {
     var now = Date.now();
