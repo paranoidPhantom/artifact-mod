@@ -5,7 +5,7 @@
 <template>
     <footer>
         <span>© 2023 ARTIFACT</span>
-        <a id="credit" href="https://paranoidphantom.vercel.app" target="_blank">
+        <a id="credit" href="https://github.com/paranoidPhantom" target="_blank">
             <img src="/images/web-design.webp" alt="Сайт разработал" title="Сайт разработал paranoidPhantom" >
         </a>
         <div class="links">
