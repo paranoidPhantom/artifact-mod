@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-var countDownDate = new Date("Apr 3, 2023 20:10:00 GMT+03:00").getTime();
+var countDownDate = new Date("Apr 3, 2023 22:10:00 GMT+03:00").getTime();
 const timerValue: any = ref("__:__:__:__")
 const timerCheckInterval = setInterval(() => {
     var now = Date.now();
@@ -15,7 +15,7 @@ const timerCheckInterval = setInterval(() => {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString();
     var seconds = Math.floor((distance % (1000 * 60)) / 1000).toString();
 
-    timerValue.value = `${days.padStart(2, "0")}:${hours.padStart(2, "0")}:${minutes.padStart(2, "0")}:${seconds.padStart(2, "0")}`
+    timerValue.value = `≈ ${days.padStart(2, "0")}:${hours.padStart(2, "0")}:${minutes.padStart(2, "0")}:${seconds.padStart(2, "0")}`
 
     // If the count down is finished, write some text
     if (distance < 0) {
@@ -29,7 +29,9 @@ const timerCheckInterval = setInterval(() => {
 </script>
 
 <template>
-    <h1>До начала ОБТ (Уже точно!)</h1>
+    <img src="/images/sidormeme.webp" style="width: 100%;">
+    <h1>У нас технические шоколадки, а что поделаешь...</h1>
+    <h2><i>...хрен его знает на кой ляд тебе этот Артефакт сдался...</i></h2>
     <hr v-if="!timerValue">
     <h2 v-if="timerValue" id="countdown">{{ timerValue }}</h2>
     <h2 class="updsoon" v-else>Сайт скоро обновиться!</h2>
