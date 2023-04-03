@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-var countDownDate = new Date("Apr 3, 2023 8:10:00 GMT+03:00").getTime();
+var countDownDate = new Date("Apr 3, 2023 20:10:00 GMT+03:00").getTime();
 const timerValue: any = ref("__:__:__:__")
 const timerCheckInterval = setInterval(() => {
     var now = Date.now();
@@ -29,7 +29,7 @@ const timerCheckInterval = setInterval(() => {
 </script>
 
 <template>
-    <h1>До начала ОБТ</h1>
+    <h1>До начала ОБТ (Уже точно!)</h1>
     <hr v-if="!timerValue">
     <h2 v-if="timerValue" id="countdown">{{ timerValue }}</h2>
     <h2 class="updsoon" v-else>Сайт скоро обновиться!</h2>
