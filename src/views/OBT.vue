@@ -32,7 +32,7 @@ const submitForm = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
-            <CountdownTimer />
+            <h2 style="text-transform: uppercase;">Релиз ожижается в ближайшее время</h2>
             <!-- <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
                 <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
@@ -47,7 +47,7 @@ const submitForm = () => {
                 <li>В папке Artifact fragment открыть файл fsgame.ltx и поменять путь до оригинала игры на свой, аналогично этому: <i>C:\Games\S.T.A.L.K.E.R. Call of Pripyat</i><br><span><u>Менять нужно на такое расположение, где у ВАС находится оригинал игры.</u></span></li>
                 <li>Запускать модификацию с помощью значка "Artifact START", при желании можно создать ярлык на рабочем столе.</li>
                 <li>При уведомлении о том, что доступно новое обновление нажимать - <b>НЕТ</b></li>
-            </ul>
+            </ul>-->
             <hr>
             <h3 style="text-transform: uppercase;">Минимальные требования:</h3>
             <ul>
@@ -63,7 +63,7 @@ const submitForm = () => {
                 <li>Оперативная память: 12 Гбайт</li>
                 <li>Место на диске: 20 Гбайт (предпочтительнее SSD)</li>
             </ul>
-            <hr>
+            <!--<hr>
             <h2 style="text-transform: uppercase;">Ссылки на загрузку</h2>
             <ul style="list-style-type: '»  ';">
                 <li>Загрузить «ARTIFACT fragment» с <a href="" target="_blank">GitHub</a> [5.4 ГБ]</li>
@@ -80,6 +80,7 @@ const submitForm = () => {
             <h3>ПРОБЛЕМЫ (ЕСЛИ СТОЛКНУЛИСЬ)</h3>
             <textarea class="feedback" name="feedback" v-model="issuesValue"></textarea>
             <button @click="submitForm">Отправить</button>
+            <div class="not-available"></div>
         </div>
     </div>
 </template>
@@ -103,6 +104,16 @@ li > a {
 
 li > span {
     font-size: 0.9em;
+}
+
+.not-available {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    z-index: 10;
+    top: 0;
+    left: 0;
 }
 
 #background-video {
