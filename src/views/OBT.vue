@@ -32,7 +32,7 @@ const submitForm = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <div id="install">
-            <h2 style="text-transform: uppercase;">Релиз ожижается в ближайшее время</h2>
+            <h2 style="text-transform: uppercase;">Релиз ожидается в ближайшее время</h2>
             <!-- <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
                 <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
