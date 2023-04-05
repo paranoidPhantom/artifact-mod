@@ -14,7 +14,6 @@ const formLink = (info: String, rating: Number, problems: String) => {
 }
 const submitForm = () => {
     try {
-        throw("required ")
         fetch(formLink(reviewValue.value, ratingValue.value, issuesValue.value), { mode: 'no-cors' })
             .then((response) => {
                 router.push('/')
