@@ -64,9 +64,9 @@ const submitForm = () => {
             <hr>
             <h2 style="text-transform: uppercase;">Ссылки на загрузку</h2>
             <ul style="list-style-type: '»  ';">
-                <!--<li>Загрузить «ARTIFACT fragment» с <a href="magnet:?xt=urn:btih:SRMXWDOSHF7PJCVX4PLJEXVABSQZNPJD&dn=Artifact%20fragment.7z&xl=7538218260&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce" target="_blank">GitHub</a> [7 ГБ]</li>-->
-                <li>Загрузить «ARTIFACT fragment» <a href="magnet:?xt=urn:btih:SRMXWDOSHF7PJCVX4PLJEXVABSQZNPJD&dn=Artifact%20fragment.7z&xl=7538218260&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">Torrent</a> [7 ГБ]</li>
-                <li>Загрузить «ARTIFACT fragment» с ФО: <a href="https://drive.google.com/file/d/14WA2Q4tsZx38SqTar0GxAw6_eTXiWuNC/view?usp=sharing" target="_blank">Google Drive</a> [7 ГБ]</li>
+                <li>Загрузить «ARTIFACT fragment» + Патч от 08.04 <a href="magnet:?xt=urn:btih:CIQ3JJ3RA5M4MKEY2LZCXD3NSY6YTKUB&dn=ArtifactFragment_Patched.7z&xl=8474916783&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">Torrent</a> [7.89 ГБ]</li>
+                <!--<li>Загрузить «ARTIFACT fragment» + Патч от 08.04 с ФО: <a href="https://drive.google.com/file/d/14WA2Q4tsZx38SqTar0GxAw6_eTXiWuNC/view?usp=sharing" target="_blank">Google Drive</a> [7 ГБ]</li>
+            -->
             </ul>
             <Support />
         </div>
