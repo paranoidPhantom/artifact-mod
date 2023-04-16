@@ -27,9 +27,7 @@ const submitForm = () => {
         <router-link to="/" class="homebtn">
             <img src="/images/home.webp">
         </router-link>
-        <iframe id="background-video" src="https://www.youtube.com/embed/5ncbY6LFRfc?controls=0&autoplay=1&loop=1&modestbranding=1&showinfo=0" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+        <video loop autoplay src="https://artifactmod.online/background.mp4" id="background-video"></video>
         <div id="install">
             <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
@@ -64,7 +62,7 @@ const submitForm = () => {
             <hr>
             <h2 style="text-transform: uppercase;">Ссылки на загрузку</h2>
             <ul style="list-style-type: '»  ';">
-                <li style="opacity: 0.2; pointer-events: none;">Загрузить «ARTIFACT fragment» (финальная версия) <a href="https://artifactmod.online/ArtifactFragment_Patched.7z">С наших серверов</a> [4.4 ГБ]</li>
+                <li>Загрузить «ARTIFACT fragment» (финальная версия) <a href="https://artifactmod.online/Artifact fragment (final).7z">С наших серверов</a> [4.4 ГБ]</li>
                 <li style="opacity: 0.2; pointer-events: none;">Загрузить «ARTIFACT fragment» (финальная версия) <a href="">Torrent</a> [4.4 ГБ]</li>
                 <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» (финальная версия) с ФО: <a href="https://drive.google.com/file/d/1xs5C8Q5lXJh0mGEH76oyXeGCGWe7Zq-c/view" target="_blank">Google Drive</a> [4.4 ГБ]</li>
             </ul>
@@ -110,7 +108,6 @@ li > span {
     height: 100%;
     z-index: -1;
     user-select: none;
-    transform: scale(1.4);
     filter: saturate(1.3) brightness();
     pointer-events: none;
 }
