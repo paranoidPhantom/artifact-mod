@@ -64,9 +64,9 @@ const submitForm = () => {
             <hr>
             <h2 style="text-transform: uppercase;">Ссылки на загрузку</h2>
             <ul style="list-style-type: '»  ';">
-                <li>Загрузить «ARTIFACT fragment» + Патч от 08.04 <a href="https://artifactmod.online/ArtifactFragment_Patched.7z">С наших серверов</a> [7.89 ГБ]</li>
-                <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» + Патч от 08.04 <a href="magnet:?xt=urn:btih:CIQ3JJ3RA5M4MKEY2LZCXD3NSY6YTKUB&dn=ArtifactFragment_Patched.7z&xl=8474916783&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">Torrent</a> [7.89 ГБ]</li>
-                <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» + Патч от 08.04 с ФО: <a href="https://drive.google.com/file/d/1A2vrSONw-a-ynlEPkDzZiWPIwdeYc0Bn/view?usp=share_link" target="_blank">Google Drive</a> [7.89 ГБ]</li>
+                <li style="opacity: 0.2; pointer-events: none;">Загрузить «ARTIFACT fragment» (финальная версия) <a href="https://artifactmod.online/ArtifactFragment_Patched.7z">С наших серверов</a> [4.4 ГБ]</li>
+                <li style="opacity: 0.2; pointer-events: none;">Загрузить «ARTIFACT fragment» (финальная версия) <a href="">Torrent</a> [4.4 ГБ]</li>
+                <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» (финальная версия) с ФО: <a href="https://drive.google.com/file/d/1xs5C8Q5lXJh0mGEH76oyXeGCGWe7Zq-c/view" target="_blank">Google Drive</a> [4.4 ГБ]</li>
             </ul>
             <Support />
         </div>
