@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="container">
+    <div class="page-wrapper">
         <img src="/images/hero2.webp" alt="Hero image" id="hero-image">
         <div class="hero">
             <img src="/images/logo1.webp" alt="Логотип" id="logo">
@@ -12,7 +12,7 @@
                 Модификация на основе S.T.A.L.K.E.R. CoP, рассказывающая о приключениях сталкера по кличке Угрюмый.<br><br>Вас ждет интересный
                 сюжет с множеством дополнительных квестов, хорошая графика и затягивающий геймплей.
             </h4>
-            <div class="button-container">
+            <div class="button-page-wrapper">
                 <router-link to="/about">
                     <button>О модификации</button>
                 </router-link>
@@ -65,7 +65,7 @@
         box-shadow: 0 0 5rem 5rem black inset;
     }
 }
-.container {
+.page-wrapper {
     position: relative;
     height: 100vh;
     animation: vigineteLoad 2s forwards;
@@ -128,7 +128,7 @@ h4 {
     user-select: none;
 }
 
-.container:has(button:hover) #hero-image{
+.page-wrapper:has(button:hover) #hero-image{
     animation: changeGreyscale 1s forwards;
 }
 
@@ -149,7 +149,6 @@ button:hover {
   color: white;
 }
 
-.button-container {
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -160,7 +159,6 @@ button:hover {
     button {
         font-size: 1.2rem;
     }
-    .button-container {
         flex-direction: column;
     }
 }

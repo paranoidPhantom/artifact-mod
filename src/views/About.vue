@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="container">
+    <div class="page-wrapper">
         <router-link to="/" class="homebtn">
             <img src="/images/home.webp">
         </router-link>
@@ -29,7 +29,7 @@ onMounted(() => {
 h1 {
     font-weight: 500;
 }
-.container {
+.page-wrapper {
     padding: 2rem;
     display: flex;
     flex-direction: column;;

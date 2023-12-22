@@ -23,7 +23,7 @@ const submitForm = () => {
 </script>
 
 <template>
-    <div class="container">
+    <div class="page-wrapper">
         <router-link to="/" class="homebtn">
             <img src="/images/home.webp">
         </router-link>
@@ -81,7 +81,7 @@ const submitForm = () => {
 </template>
 
 <style scoped>
-.container {
+.page-wrapper {
     display: flex;
     min-height: 100vh;
 }
@@ -232,7 +232,7 @@ button:hover {
 
 
 @media screen and (max-width: 700px) {
-    .container {
+    .page-wrapper {
         flex-direction: column;
     }
     .homebtn {
