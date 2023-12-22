@@ -29,6 +29,7 @@ const submitForm = () => {
         </router-link>
         <video loop autoplay src="https://artifactmod.online/background.mp4" id="background-video"></video>
         <div id="install">
+            <CountdownTimer />
             <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
                 <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
@@ -62,7 +63,7 @@ const submitForm = () => {
             <hr>
             <h2 style="text-transform: uppercase;">Ссылки на загрузку</h2>
             <ul style="list-style-type: '»  ';">
-                <li>Загрузить «ARTIFACT fragment» (финальная версия) <a href="https://artifactmod.online/Artifact fragment (final).7z">С наших серверов</a> [4.4 ГБ]</li>
+                <!-- <li>Загрузить «ARTIFACT fragment» (финальная версия) <a href="https://artifactmod.online/Artifact fragment (final).7z">С наших серверов</a> [4.4 ГБ]</li> -->
                 <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» (финальная версия) <a href="magnet:?xt=urn:btih:ZAWBC263WE7LYVTYKIHTYDHEAHXNZMRA&dn=Artifact%20fragment%20(final).7z&xl=4749394351&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce">Torrent</a> [4.4 ГБ]</li>
                 <li style="opacity: 0.7;">Загрузить «ARTIFACT fragment» (финальная версия) с ФО: <a href="https://drive.google.com/file/d/1xs5C8Q5lXJh0mGEH76oyXeGCGWe7Zq-c/view" target="_blank">Google Drive</a> [4.4 ГБ]</li>
             </ul>
