@@ -1,18 +1,19 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div class="page-wrapper">
-        <img src="/images/hero2.webp" alt="Hero image" id="hero-image">
+        <img src="/images/hero2.webp" alt="Hero image" id="hero-image" />
         <div class="hero">
-            <img src="/images/logo1.webp" alt="Логотип" id="logo">
+            <img src="/images/logo1.webp" alt="Логотип" id="logo" />
             <h4>
-                ARTIFACT — это полное переосмысление атмосферы сталкера, вдохновленное произведениями братьев Стругацких.<br><br>
-                Модификация на основе S.T.A.L.K.E.R. CoP, рассказывающая о приключениях сталкера по кличке Угрюмый.<br><br>Вас ждет интересный
-                сюжет с множеством дополнительных квестов, хорошая графика и затягивающий геймплей.
+                ARTIFACT — это полное переосмысление атмосферы сталкера,
+                вдохновленное произведениями братьев Стругацких.<br /><br />
+                Модификация на основе S.T.A.L.K.E.R. CoP, рассказывающая о
+                приключениях сталкера по кличке Угрюмый.<br /><br />Вас ждет
+                интересный сюжет с множеством дополнительных квестов, хорошая
+                графика и затягивающий геймплей.
             </h4>
-            <div class="button-page-wrapper">
+            <div class="button-container">
                 <router-link to="/about">
                     <button>О модификации</button>
                 </router-link>
@@ -149,6 +150,7 @@ button:hover {
   color: white;
 }
 
+.button-container {
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -159,6 +161,7 @@ button:hover {
     button {
         font-size: 1.2rem;
     }
+	.button-container {
         flex-direction: column;
     }
 }

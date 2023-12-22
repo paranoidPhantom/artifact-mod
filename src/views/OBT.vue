@@ -29,7 +29,7 @@ const submitForm = () => {
         </router-link>
         <video loop autoplay src="https://artifactmod.online/background.mp4" id="background-video"></video>
         <div id="install">
-            <CountdownTimer />
+            <!-- <CountdownTimer /> -->
             <h2 style="text-transform: uppercase;">Информация</h2>
             <ul>
                 <li><p>В ОБТ будет только одна начальная локация - "Периметр".</p></li>
